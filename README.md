@@ -11,7 +11,8 @@ n-th sample.
 
 ## Compilation and running
 
-The program can be compiled with either ``mpic++`` or CMake. Running is done through ``mpi_exec``.
+The program can be compiled with either ``mpic++`` or CMake. Running is done 
+through ``mpi_exec -n 2`` (only two processes for now).
 
 ## Example with double potential well
 
