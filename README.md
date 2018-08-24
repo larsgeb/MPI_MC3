@@ -48,7 +48,7 @@ the distribution with the strong barrier, is only sampled near its starting poin
 
 **with coupling**
     
-Now, enabling Metropolis coupling:
+Now, enabling Metropolis coupling (but effectively halving the RWMH steps by allocating space for MCMCMC steps):
 
     // Settings for the sampler
     #define STARTING_SAMPLE -1.0
